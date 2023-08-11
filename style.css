@@ -1,0 +1,165 @@
+.todo-app{
+    /* background-color: #f0f0f0; */
+    background-image: linear-gradient(yellow,orange);
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #f80aa9;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+
+.todo-app h1{
+    text-align: center;
+}
+
+.todo-list{
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.todo-item{
+    background-color: rgb(245, 176, 48);
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 20px;
+    border-radius: 8px;
+    font: bold;
+
+}
+
+.todo-item:hover{
+    color: #f80a0a;
+    font: bold;
+}
+
+.todo-item label{
+    flex: 1;
+    margin-left: 5px;
+}
+
+.input{
+    background-color: antiquewhite;
+    outline: none;
+    transition:  background-color 0.5s;
+    
+}
+
+.input:focus{
+    background-color: pink;
+}
+
+
+.headline {
+    color: #f80aa9;  
+    font-style: italic;
+}
+
+.headline:hover {
+    color: #5e334f;  
+}
+
+
+
+.delete-button{
+    background-color: rgba(0, 81, 255, 0.644);
+    color: white;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.delete-button:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.edit-button{
+    background-color: rgba(255, 27, 244, 0.534);
+    color: white;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.edit-button:hover {
+    background-color: #c50585;
+}
+
+
+.submit-button{
+    background-color: rgb(83, 228, 83);
+    font-weight: 600;
+    border: none;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+}
+
+.submit-button:hover{
+    background-color: rgb(63, 188, 63);
+}
+
+
+.deleteall-button{
+    background-color: rgb(83, 228, 83);
+    font-weight: 600;
+    border: none;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+}
+
+.deleteall-button:hover{
+    background-color: rgb(63, 188, 63);
+}
+
+
+.deleteselect-button{
+    background-color: rgb(83, 228, 83);
+    font-weight: 600;
+    border: none;
+    height: 40px;
+    width: 65px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+}
+
+.deleteselect-button:hover{
+    background-color: rgb(63, 188, 63);
+}
+
+.todo-form{
+    margin-bottom: 10px;
+}
+.todo-form input{
+    height: 20px;
+}
+
+
+.animations-rotation{
+    animation: _rotate_ 1s infinite;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+}
+
+@keyframes _rotate_ {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}

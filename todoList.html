@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Our todo app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="todo-app">
+  
+    <div class="animations-rotation">
+      <div class="animations-rotation"></div>
+    </div>
+    
+      <h1 class="headline"><i class="fa-regular fa-note-sticky"></i>Todo App 
+         <i class="fa-regular fa-star"></i>
+         <i class="fa-regular fa-star"></i>
+      </br><i class="fa-regular fa-face-grin-stars"></i>Hi
+      <span id="user-name"></span>
+      <i class="fa-regular fa-face-grin-stars"></i>
+     
+
+      </h1>
+      <div class="todo-list">
+      </div>
+    
+
+      <form class="todo-form">
+        <input type="text" placeholder="Add your task here" id="new-task" class="input"/>
+        <button type="submit" class="submit-button">Add</button> 
+        <button id="delete-all-button" class="deleteall-button">Dlt All</button>
+        <button id="delete-selected-button" class="deleteselect-button">Dlt Selected</button>
+      </form>
+
+      <input type="text" id="search-input" placeholder="Search tasks" class="input">
+    
+    </div>
+  
+    <script src="ourFunctions.js"></script>
+  </body>
+</html>
